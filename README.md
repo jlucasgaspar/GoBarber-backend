@@ -5,31 +5,31 @@
 # Recuperação de senha
 
 **RF**
-- O usuário deve poder recuperar sua senha informando seu e-mail
-- O usuário deve receber um e-mail com instruções de recuperação de senha
-- O Usuário deve poder resetar sua senha
+- ✅ O usuário deve poder recuperar sua senha informando seu e-mail
+- ✅ O usuário deve receber um e-mail com instruções de recuperação de senha
+- ✅ O Usuário deve poder resetar sua senha
 
 **RNF**
-- Utilizar Mailtrap para testar envios em embiente de desenvolvimento
-- Utilizar Amazon SES(Simple Email Service) para envios em produção
-- O envio de e-mails deve acontecer em segundo plano (background job)
+- ✅ Utilizar Mailtrap para testar envios em embiente de desenvolvimento
+- ✅ Utilizar Amazon SES(Simple Email Service) para envios em produção
+- ✅ O envio de e-mails deve acontecer em segundo plano (background job)
 
 **RN**
-- O link enviado por e-mail para resetar senha, deve expirar em 2h
-- O usuário precisa confirmar a nova senha antes de resetar a sua senha
+- ✅ O link enviado por e-mail para resetar senha, deve expirar em 2h
+- ✅ O usuário precisa confirmar a nova senha antes de resetar a sua senha
 
 # Atualização de perfil
 
 **RF**
-- O usuário deve poder atualizar seu perfil (nome, email, senha)
+- ✅ O usuário deve poder atualizar seu perfil (nome, email, senha)
 
 **RNF**
-- Nada
+- ✅ Nada
 
 **RN**
-- O usuário não pode alterar seu e-mail para um e-mail já utilizado
-- Para atualizar sua senha, o usuário deve informar a senha antiga
-- Para atualizar sua senha, o usuário precisa confirmar a nova senha
+- ✅ O usuário não pode alterar seu e-mail para um e-mail já utilizado
+- ✅ Para atualizar sua senha, o usuário deve informar a senha antiga
+- ✅ Para atualizar sua senha, o usuário precisa confirmar a nova senha
 
 # Agendamento de serviços
 

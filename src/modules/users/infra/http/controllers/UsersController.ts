@@ -1,5 +1,5 @@
-import { Request, Response } from "express"
-import { container } from "tsyringe"
+import { Request, Response } from 'express'
+import { container } from 'tsyringe'
 import CreateUserService from '@modules/users/services/CreateUserService'
 
 export default class UsersController {
